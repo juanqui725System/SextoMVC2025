@@ -1,7 +1,7 @@
 <?php
 $routes = [
-    'home' => ['controller' => 'HomeController',
-                'method' => 'index'],
+    'home' => ['controller' => 'HomeController','method' => 'index'],
+    '' => ['controller' => 'HomeController', 'method' => 'index'], /* por default ingresa a home*/
 ];
 
 //devolver la vista si existe, de lo contrario, cargar 404
